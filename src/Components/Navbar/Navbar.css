@@ -1,0 +1,69 @@
+/* Navbar Background */
+.navbar-bg {
+  background-color: rgb(235, 235, 235);
+  padding: 0.5rem 0;
+  z-index: 99;
+  position: relative;
+}
+
+/* Navbar Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+  border: none;
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+/* Navbar Links */
+.navbar-nav {
+  margin-left: auto; /* Pushes the navbar links to the right */
+}
+
+.navbar-nav li {
+  padding: 5px;
+}
+
+.navbar-nav li a {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* Navbar Link Active */
+.navbar-nav li .nav-link.active {
+  color: brown;
+  font-weight: bold;
+}
+
+/* Navbar Collapse Animation */
+.navbar-collapse {
+  transition: height 0.3s ease;
+  overflow: hidden;
+}
+
+/* Navbar Link Animation */
+.navbar-nav li {
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav li:hover {
+  transform: translateY(-3px);
+}
+
+/* Navbar Link Hover */
+.navbar-nav li a:hover {
+  color: brown;
+  text-shadow: 0 0.2rem 0.3rem;
+}
